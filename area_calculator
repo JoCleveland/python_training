@@ -4,7 +4,7 @@ class square:
 
 
         def area(self):
-            print(self.length**2)
+            print(f'Area: {self.length**2} square units')
 
 
 
@@ -14,7 +14,7 @@ class circle:
 
 
         def area(self):
-            print(self.radius*pi*2)
+            print(f'Area: {self.radius*pi*2} square units')
 
 
 class rhombus:
@@ -23,7 +23,7 @@ class rhombus:
             self.height = height
 
         def area(self):
-            print(self.base*self.height)
+            print(f'Area: {self.base*self.height} square units')
 
 
 class triangle:
@@ -32,7 +32,7 @@ class triangle:
             self.height = height
 
         def area(self):
-            print(self.base*self.height/2)
+            print(f'Area: {self.base*self.height/2} square units')
 
 
 class rectangle:
@@ -42,7 +42,7 @@ class rectangle:
 
         
         def area(self):
-            print(self.base*self.height)
+            print(f'Area: {self.base*self.height} square units')
 
 
 pi = 3.1415926
