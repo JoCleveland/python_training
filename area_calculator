@@ -1,0 +1,85 @@
+class square:
+        def __init__(self, length):
+            self.length = length
+
+
+        def area(self):
+            print(self.length**2)
+
+
+
+class circle:
+        def __init__(self, radius):
+            self.radius = radius
+
+
+        def area(self):
+            print(self.radius*pi*2)
+
+
+class rhombus:
+        def __init__(self, base, height):
+            self.base = base
+            self.height = height
+
+        def area(self):
+            print(self.base*self.height)
+
+
+class triangle:
+        def __init__(self, base, height):
+            self.base = base
+            self.height = height
+
+        def area(self):
+            print(self.base*self.height/2)
+
+
+class rectangle:
+        def __init__(self, base, height):
+            self.base = base
+            self.height = height
+
+        
+        def area(self):
+            print(self.base*self.height)
+
+
+pi = 3.1415926
+
+if __name__ == '__main__':
+    type = input('Type of shape: ')
+    
+    if type == 'square':
+        shape = square(int(input('Length of side 1: ')))
+        print(shape.area())
+
+
+    elif type == 'circle':
+        r = int(input('Radius: '))
+        shape = circle(r)
+        print(shape.area())
+
+
+    elif type == 'rhombus':
+        b = int(input('Base: '))
+        h = int(input('Height: '))
+        shape = rhombus(b, h)
+        print(shape.area())
+
+
+    elif type == 'triangle':
+        b = int(input('Base: '))
+        h = int(input('Height: '))
+        shape = triangle(b, h)
+        print(shape.area())
+
+
+    elif type == 'rectangle':
+        b = int(input('Base: '))
+        h = int(input('Height: '))
+        shape = rectangle(b, h)
+        print(shape.area())
+
+    else:
+        print('Sorry, we don\'t recognize that shape.')
