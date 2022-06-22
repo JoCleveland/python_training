@@ -1,3 +1,6 @@
+from math import pi
+
+
 class square:
         def __init__(self, length):
             self.length = length
@@ -45,39 +48,37 @@ class rectangle:
             print(f'Area: {self.base*self.height} square units')
 
 
-pi = 3.1415926
-
 if __name__ == '__main__':
     type = input('Type of shape: ')
     
     if type == 'square':
-        shape = square(int(input('Length of side 1: ')))
+        shape = square(float(input('Length of side 1: ')))
         print(shape.area())
 
 
     elif type == 'circle':
-        r = int(input('Radius: '))
+        r = float(input('Radius: '))
         shape = circle(r)
         print(shape.area())
 
 
     elif type == 'rhombus':
-        b = int(input('Base: '))
-        h = int(input('Height: '))
+        b = float(input('Base: '))
+        h = float(input('Height: '))
         shape = rhombus(b, h)
         print(shape.area())
 
 
     elif type == 'triangle':
-        b = int(input('Base: '))
-        h = int(input('Height: '))
+        b = float(input('Base: '))
+        h = float(input('Height: '))
         shape = triangle(b, h)
         print(shape.area())
 
 
     elif type == 'rectangle':
-        b = int(input('Base: '))
-        h = int(input('Height: '))
+        b = float(input('Base: '))
+        h = float(input('Height: '))
         shape = rectangle(b, h)
         print(shape.area())
 
