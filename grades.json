@@ -1,8 +1,1 @@
-{"Alice A": {
-  "Assignment_1" : 10,
-  "Assignment_2" : 20,
-  "Assignment_3" : 100},
- "Billy Bob Big Foot": {
-  "Assignment_1" : 10,
-  "Assignment_2" : 20,
-  "Assignment_3" : 100}}
+{"Alice A": {"Assignment_1": 10, "Assignment_2": 20, "Assignment_3": 100, "Big test": "88"}, "Billy Bob Big Foot": {"Assignment_1": 10, "Assignment_2": 20, "Assignment_3": 100, "Big test": "73"}, "Emma": {"Assignment_1": "49", "Assignment_2": "23", "Assignment_3": "57", "Big test": "94"}}
