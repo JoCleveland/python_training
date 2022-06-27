@@ -39,7 +39,7 @@ class Grades(object):
     
     def save(self,file_name):
         with open(file_name, "w") as out_file:
-            json.dump(self.grades, out_file)
+            json.dump(self.grades, out_file, indent=2)
 
 
 
@@ -75,7 +75,15 @@ if __name__ == "__main__":
             for student in file.grades:
                 for assignment in file.assignments:
                     if file.grades[student][assignment] == None:
-                        file.enter_new_scores(student, assignment, input(f'\nEnter new score for {student} on {assignment}: ') )
+                        while True:
+
+                            try:
+                                x = float(input(f'\nEnter new score for {student} on {assignment}: '))
+                                break
+                            except ValueError:
+                                print('Please enter a valid number.')
+
+                        file.enter_new_scores(student, assignment, x )
 
         elif action == '3':
             file.update_scores(input('\nEnter student name: '), input('\nEnter assignment name: '), input('\nEnter updated score: '))

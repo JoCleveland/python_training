@@ -1,1 +1,34 @@
-{"Alice A": {"Assignment_1": 10, "Assignment_2": 20, "Assignment_3": 100, "Big test": "88"}, "Billy Bob Big Foot": {"Assignment_1": 10, "Assignment_2": 20, "Assignment_3": 100, "Big test": "73"}, "Emma": {"Assignment_1": "49", "Assignment_2": "23", "Assignment_3": "57", "Big test": "94"}}
+{
+  "Alice A": {
+    "Assignment_1": 10,
+    "Assignment_2": 20,
+    "Assignment_3": 100,
+    "Big test": "88",
+    "Burr Bush Assignment": "None",
+    "Test": 5.3
+  },
+  "Billy Bob Big Foot": {
+    "Assignment_1": 10,
+    "Assignment_2": 20,
+    "Assignment_3": 100,
+    "Big test": "73",
+    "Burr Bush Assignment": "2 big feet",
+    "Test": 7600.0
+  },
+  "Emma": {
+    "Assignment_1": "49",
+    "Assignment_2": "23",
+    "Assignment_3": "57",
+    "Big test": "94",
+    "Burr Bush Assignment": "20",
+    "Test": 12.0
+  },
+  "Burr Rabbit": {
+    "Assignment_1": "0.5",
+    "Assignment_2": "3.14159265358979",
+    "Assignment_3": "1000",
+    "Big test": "-1",
+    "Burr Bush Assignment": "100",
+    "Test": -2.0
+  }
+}
