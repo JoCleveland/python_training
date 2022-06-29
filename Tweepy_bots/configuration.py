@@ -1,7 +1,6 @@
 from math import e
 
 
-
 import tweepy
 
 
