@@ -22,7 +22,7 @@ class FavRetweetListner(tweepy.StreamListner):
         self.me = api.me()
 
     
-    def on_status (self, tweet):
+    def on_status(self, tweet):
         logger.info(f'Processing tweet id {tweet.id}')
         
         
