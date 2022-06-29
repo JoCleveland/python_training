@@ -17,7 +17,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
 
-class FavRetweetListner(tweepy.StreamListner):
+class FavRetweetListner(tweepy.Stream):
 
 
     def __init__(self, api):
@@ -101,4 +101,4 @@ def main(keywords):
 if __name__ == "__main__":
 
 
-    main("duck", "ducks")
+    main(["duck", "ducks"])
