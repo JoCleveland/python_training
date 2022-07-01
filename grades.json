@@ -5,15 +5,17 @@
     "Assignment_3": 100,
     "Big test": "88",
     "Burr Bush Assignment": "None",
-    "Test": 5.3
+    "Test": 5.3,
+    "Puzzlemania": "42"
   },
   "Billy Bob Big Foot": {
     "Assignment_1": 10,
     "Assignment_2": 20,
     "Assignment_3": 100,
     "Big test": "73",
-    "Burr Bush Assignment": "2 big feet",
-    "Test": 7600.0
+    "Burr Bush Assignment": "66",
+    "Test": 7600.0,
+    "Puzzlemania": null
   },
   "Emma": {
     "Assignment_1": "49",
@@ -21,7 +23,8 @@
     "Assignment_3": "57",
     "Big test": "94",
     "Burr Bush Assignment": "20",
-    "Test": 12.0
+    "Test": 12.0,
+    "Puzzlemania": null
   },
   "Burr Rabbit": {
     "Assignment_1": "0.5",
@@ -29,6 +32,16 @@
     "Assignment_3": "1000",
     "Big test": "-1",
     "Burr Bush Assignment": "100",
-    "Test": -2.0
+    "Test": -2.0,
+    "Puzzlemania": null
+  },
+  "Chauncy": {
+    "Assignment_1": null,
+    "Assignment_2": null,
+    "Assignment_3": null,
+    "Big test": null,
+    "Burr Bush Assignment": null,
+    "Test": null,
+    "Puzzlemania": null
   }
 }
